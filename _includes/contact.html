@@ -1,0 +1,64 @@
+<div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
+
+    {% if Info.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ Info.email }}">{{ Info.email }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.phone %}
+    <li class="phone"><i class="fas fa-phone"></i>
+      <a href="tel:{{ Info.phone }}">{{ Info.phone }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.telegram %}
+    <li class="telegram"><i class="fab fa-telegram"></i>
+      <a href="https://t.me/{{ Info.telegram }}" target="_blank">{{ Info.telegram }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.website %}
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      <a href="http://{{ Info.website }}" target="_blank">{{ Info.website }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ Info.linkedin }}" target="_blank">{{ Info.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/{{ Info.github }}" target="_blank">{{ Info.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      <a href="http://gitlab.com/{{ Info.gitlab }}" target="_blank">{{ Info.gitlab }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.bitbucket %}
+    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+      <a href="http://bitbucket.com/{{ Info.bitbucket }}" target="_blank">{{ Info.bitbucket }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.twitter %}
+    <li class="twitter"><i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/{{ Info.twitter }}" target="_blank">{{ Info.twitter }}</a>
+    </li>
+    {% endif %}
+
+    {% if Info.stack-overflow %}
+    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+      <a href="https://stackoverflow.com/users/{{ Info.stack-overflow }}" target="_blank">{{ Info.stack-overflow }}</a>
+    </li>
+    {% endif %}
+  </ul>
+</div><!--//contact-container-->
