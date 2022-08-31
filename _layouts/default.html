@@ -10,14 +10,13 @@
 	</head>
 	
 	<body>
-	{{ content }}
+		<header>
+		{% include navigation.html %}
+		</header>
+		{{ content }}
 	</body>
 
 	<footer>
-	<br>
-	<hr>
-	{% include navigation.html %}
-	<br>
 	</footer>
 	
 </html>

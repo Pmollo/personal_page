@@ -1,7 +1,34 @@
 body {
-		background: #bb8c60;
-		font-size: 12pt;
-		padding: 8px;
+	background: #bb8c60;
+	font-size: 12pt;
+	padding: 8px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: 120px;
+	margin-left: 120px;
+}
+
+header {
+	background: #eeeeee;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 25px 0 black;
+	font-size:16pt;
+}
+header * {
+	display: inline;
+}
+header li {
+	margin: 80px;
+}
+header li a {
+	color: #bb8c60;
+	text-decoration: none;
 }
 
 h2 {
@@ -66,4 +93,9 @@ footer {
 						}
 				}
 		}
+}
+
+.ImgBox{
+	border: 1px solid black;
+	background: #52576f;
 }
