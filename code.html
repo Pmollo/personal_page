@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Code</title>
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="stylesheet" href="/assets/plugins
+		/font-awesome/css/all.css">
+		<link rel="shortcut icon" href="/logo.ico" type="image/x-icon">
+	</head>
+	
+	<body>
+		<header>
+		<nav>
+	<ul>
+	
+		<li>
+		<a href="/" >Home</a>
+		</li>
+	
+		<li>
+		<a href="/code.html" class="current">Code</a>
+		</li>
+	
+		<li>
+		<a href="/publications.html" >Publications</a>
+		</li>
+	
+		<li>
+		<a href="/presentations.html" >Presentations</a>
+		</li>
+	
+		<li>
+		<a href="/teaching.html" >Teaching</a>
+		</li>
+	
+	</ul
+</nav>
+
+		</header>
+		<h1 id="programming">Programming</h1>
+
+<hr />
+
+<h2 id="math-for-biomedical-modelling">Math for biomedical modelling</h2>
+<h3 id="computational-fluid-dynamics">Computational Fluid Dynamics</h3>
+<ul>
+  <li><a href="https://gitlab.com/piemollo/cfd/ns-validation"><strong>Navier-Stokes benchmark</strong></a>;
+FreeFem code to validate and benchmark an unsteady NS solver.</li>
+  <li><a href="https://gitlab.com/piemollo/cfd/dropipe"><strong>Dropipe</strong></a>;
+FreeFem code to validate pressure drop in CFD simulation.</li>
+  <li><strong>Cerebral Venous Network</strong>; [currently private] 
+FreeFem, Python and Octave codes to pre-process raw data from medical acquisitions,
+simulate the venous blood flow and post-process results.</li>
+  <li><strong>2D Bifurcation sandbox problem</strong>; [currently private]
+FreeFem and Octave of 2D vascular toy problem.</li>
+  <li><a href="https://gitlab.com/piemollo/cfd/windkessel-ff"><strong>Windkessel BC for FreeFEM</strong></a>
+<code class="language-plaintext highlighter-rouge">.idp</code> file to build implicit Windkessel BC matrices in FreeFEM.</li>
+</ul>
+
+<h3 id="physiological-modelling">Physiological modelling</h3>
+<ul>
+  <li><a href="https://gitlab.com/piemollo/phimod/frm"><strong>Flow rate manager</strong></a>;
+Octave module to process and resample flow rate acquisition.</li>
+  <li><strong>Center lines</strong>; [currently private] 
+Octave module to load, display and manage center line from vessel networks.</li>
+</ul>
+
+<hr />
+
+<h2 id="reduced-order-modelling">Reduced Order Modelling</h2>
+<h3 id="reduced-basis-methods">Reduced Basis Methods</h3>
+<ul>
+  <li><strong>Proper Orthogonal Decomposition</strong>; 
+<a href="https://gitlab.com/piemollo/rom/rbm/pod">FreeFEM version</a>, 
+<a href="https://gitlab.com/piemollo/rom/rbm/podmatlib">Octave version</a>, 
+<a href="https://gitlab.com/piemollo/rom/rbm/podpy">Python version</a>
+modules to run POD on data sets, with test certification.</li>
+  <li><a href="https://gitlab.com/piemollo/rom/rbm/rbs"><strong>Reduced Basis Suite</strong></a>;
+FreeFem code to manage RB items [WiP].</li>
+  <li><a href="https://gitlab.com/piemollo/rom/rbm/old-rbm">Old Reduced Basis Code</a>;
+FreeFem code to run Reduced Basis Method problems [depreciated].</li>
+</ul>
+
+<h3 id="associated-modules">Associated modules</h3>
+<ul>
+  <li><strong>Empirical Interpolation Method</strong>;
+<a href="https://gitlab.com/piemollo/rom/eim/ffeim">FreeFEM version</a>;
+<a href="https://gitlab.com/piemollo/rom/eim/eim-oct">Octave version</a>.
+code to perform EIM on data set.</li>
+  <li><strong>Parametrized-Background Data-Weak</strong>; [currently private] 
+Octave module to run PBDW state estimations.</li>
+</ul>
+
+<hr />
+
+<h2 id="numerical-analysis">Numerical Analysis</h2>
+<ul>
+  <li><a href="https://gitlab.com/piemollo/numa/rbf"><strong>Radial Basis Function</strong></a>;
+Octave module to perform RBF interpolation with several kernel functions.</li>
+  <li><strong>Non-Parametric Estimation</strong>; [currently private].</li>
+</ul>
+
+<hr />
+
+<h2 id="miscellaneous">Miscellaneous</h2>
+<ul>
+  <li><a href="https://gitlab.com/piemollo/tb/elaf"><strong>Extended Linear Algebra FreeFem</strong></a>; 
+FreeFem code to perform standard LA operations between arrays and matrices.</li>
+  <li><a href="https://gitlab.com/piemollo/tb/ffmatlib"><strong>FF Matlib</strong></a>;
+FreeFem/Octave module to interface data structures.
+(forked project, original <a href="https://github.com/samplemaker/freefem_matlab_octave_plot">here</a>).</li>
+  <li><a href="https://gitlab.com/piemollo/tb/ffpy"><strong>FF Python</strong></a>;
+FreeFem/Python code to interface data structures [WiP].</li>
+  <li><a href="https://gitlab.com/piemollo/tb/statistical-display-matlab-octave"><strong>Statistical Display Matlab</strong></a>;
+Matlab(c) code to display distributed data over several categories.</li>
+  <li><a href="https://gitlab.com/piemollo/tb/gridmng"><strong>Grid Manager</strong></a>; 
+Octave/Matlab(c) codes to manage 2D grid in 3D environment. 
+Useful step to provide <em>in silico</em> MRI measurements.</li>
+  <li><a href="https://gitlab.com/piemollo/tb/python-project-template"><strong>Python Package template</strong></a>
+handy template to build Python package.</li>
+</ul>
+
+	</body>
+
+	<footer>
+	</footer>
+	
+</html>
