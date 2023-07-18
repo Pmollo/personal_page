@@ -5,6 +5,14 @@ title: Presentations
 
 ## Presentations
 
+### 2023
+
+* [**Biomedical modeling, Data Assimilation and Model Order Reduction**](./assets/pres/4tuami.pdf),
+[4TU.AMI summer event](https://www.4tu.nl/ami/Agenda-Events/summer-event-2023/),
+June 2023, TU Delft.
+* [**Development and analysis of numerical models for the cranio-spinal system**](./assets/pres/defense.pdf), 
+PhD. defense, February 2023, Reims University.
+
 ### 2022
 * **Cerebral venous blood flow model enhanced with flow-mri data
 assimilation**, [CMBE](https://www.compbiomed.net/2021/),
